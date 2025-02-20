@@ -1,0 +1,47 @@
+/* Payton Swanson, Feb 20, 2025 */
+
+/* Header and Footer styling */
+header, footer {
+    background-color: #E0E0E0; /* Light gray background */
+    padding: 1rem;
+    margin: 10px 0;
+}
+
+/* Main content styling */
+p, ul, li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Link pseudo-classes */
+.article-link:link {
+    color: #2E7D32; /* Dark green */
+    text-decoration: none;
+}
+
+.article-link:visited {
+    color: #6A1B9A; /* Dark purple */
+}
+
+.article-link:hover {
+    color: #D32F2F; /* Dark red */
+    text-decoration: underline;
+}
+
+.article-link:active {
+    color: #FF8F00; /* Orange */
+    font-weight: bold;
+}
+
+/* Additional spacing for list */
+ul {
+    padding-left: 2rem;
+    margin: 12px 0;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
