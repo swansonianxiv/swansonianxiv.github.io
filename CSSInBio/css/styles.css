@@ -25,3 +25,7 @@ h1 {
     font-weight: bold;
     padding: 5px;
 }
+
+.blue {
+    background: blue;
+}
