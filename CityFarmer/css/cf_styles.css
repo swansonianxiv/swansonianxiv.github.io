@@ -1,0 +1,69 @@
+/* Payton Swanson, 3/4/2025 */
+
+/* Outer wrapper styling */
+#outerwrapper {
+    width: 70%; /* Limit width to 70% of screen */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Body styling */
+body {
+    background-color: #B8D1EB;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Main section styling */
+main {
+    background-color: #C5A98B;
+    padding: 10px;
+}
+
+/* Float left styling for images */
+.floatleft {
+    float: left;
+    margin-right: 3%; 
+}
+
+/* Float right styling for images */
+.floatright {
+    float: right;
+    margin-left: 3%; 
+}
+
+/* Clear floats for main and footer */
+main, footer {
+    clear: both;
+}
+
+/* Remove bullets from navigation list */
+nav ul {
+    list-style-type: none;
+}
+
+/* Custom font for h1 (City Farmer) */
+h1 {
+    font-family: "Trebuchet MS, Geneva, sans-serif";
+    font-size: 2em;
+}
+
+/* Custom font for h2 (...today's urban cowboy) */
+h2 {
+    font-family: "Tahoma, serif";
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Custom list bullet using resized tomato.png */
+main ul {
+    list-style-image: url("../images/tomato.png");
+}
+
+/* Footer styling */
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    background-color: #8B5A2B; /* Chosen color */
+    padding: 10px 0; /* Top and bottom padding */
+}
