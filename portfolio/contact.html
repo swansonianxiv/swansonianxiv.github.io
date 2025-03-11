@@ -1,39 +1,92 @@
 <!DOCTYPE html>
-<!-- Payton Swanson, 
-  January 28, 2025 -->
-    <html lang="en">
+<!-- Payton Swanson
+     3/11/25 -->
+<html lang="en">
      <head>
       <title>Contact Page</title>
-      <meta charset="UTF-8" />
-      <meta name="description" content="Page for contacting Payton Swanson" />
-      <meta name="keywords" content="C# server-side HTML5 CSS3 client-side " />
-      <meta name="author" content="Payton Swanson" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="UTF-8">
+      <meta name="description" content="Page for contacting Payton Swanson">
+      <meta name="keywords" content="C# server-side HTML5 CSS3 client-side ">
+      <meta name="author" content="Payton Swanson">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" type="text/css" href="css/styles.css">
      </head>
-     <body>
-      <ul>
+<body>
+    <ul>
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="experience.html">Experience</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li style="float:right"><a href="about.html">About</a>
         </li>
     </ul>
-      <h1>Contact Me</h1>
-    <p>If you'd like to get in touch, feel free to reach out via email or phone:</p>
-    <ul>
-        <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
-        <li>Phone: <a href="tel:+1234567890">+1 (234) BUN-CHANUMBERS</a></li>
-    </ul>
-    <p>Alternatively, you can use the form below to send me a message:</p>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-        <input type="submit" value="Submit">
+    
+    <form action="mailto:paytonswanson@my.cwi.edu?subject=Personal%20Portfolio%20Mail" 
+          enctype="text/plain" 
+          method="POST">
+        
+        <fieldset>
+            <legend>How do I contact you?</legend>
+            
+            <div>
+                <label for="compName">Company Name:</label>
+                <input type="text" id="compName" name="compName" placeholder="Your Company">
+            </div>
+            
+            <div>
+                <label for="contactPerson">Person to Contact:</label>
+                <input type="text" id="contactPerson" name="contactPerson" placeholder="Name">
+            </div>
+            
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="000-000-0000" 
+                       pattern="\d{3}-\d{3}-\d{4}" required>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            
+            <div>
+                <label for="position">Type of Position:</label>
+                <select id="position" name="position" required>
+                    <option value="" disabled selected>Select a position</option>
+                    <option value="Internship">Internship</option>
+                    <option value="Part-Time">Part-Time</option>
+                    <option value="Full-Time">Full-Time</option>
+                    <option value="Contract">Contract</option>
+                    <option value="Temporary">Temporary</option>
+                    <option value="On Call">On Call</option>
+                </select>
+            </div>
+            
+            <div>
+                <p>How did you find me?</p>
+                <input type="radio" id="linkedIn" name="found" value="LinkedIn" required>
+                <label for="linkedIn">LinkedIn</label>
+                
+                <input type="radio" id="jobFair" name="found" value="Job Fair">
+                <label for="jobFair">Job Fair</label>
+                
+                <input type="radio" id="cwiPartner" name="found" value="CWI Corporate Partner">
+                <label for="cwiPartner">CWI Corporate Partner</label>
+
+                <input type="radio" id="other" name="found" value="Other">
+                <label for="other">Other</label>
+            </div>
+            
+            <div>
+                <textarea id="prepInterview" name="prepInterview" rows="10" cols="100" 
+                          placeholder="How should I prepare for the interview?"></textarea>
+            </div>
+        </fieldset>
+        
+        <input type="submit" id="submit" value="Submit" class="btn">
     </form>
-     </body>
-    </html>
+</body>
+</html>
