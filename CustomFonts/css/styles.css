@@ -1,0 +1,15 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'sansation';
+    src: url('../fonts/Sansation-Regular.woff') format('woff');
+    src: url('../fonts/Sansation-Regular.woff2') format('woff2');
+    
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'sansation', "Times New Roman", serif;
+}
