@@ -1,0 +1,68 @@
+/* Style sheet created by: Payton Swanson, March 18, 2025 */
+
+/* Style for body specifies a background color */
+body {
+    background-color: #B8B894;
+}
+
+/* Style for the container centers the page and specifies the width */
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Style for the header specifies top margin and center aligns content */
+header {
+    margin-top: 0.2em;
+    text-align: center;
+}
+
+/* Gradient styles based on provided instructions */
+
+/* Linear gradient to the right */
+#gradient1 {
+    border: solid #000000;
+    height: 5em;
+    margin-bottom: 2em;
+    background: linear-gradient(to right, #000066, #99FF99 25%);
+}
+
+/* Linear gradient to the left */
+#gradient2 {
+    border: solid #000000;
+    height: 5em;
+    margin-bottom: 2em;
+    background: linear-gradient(to left, #000066, #99FF99 10%);
+}
+
+/* Radial gradient */
+#gradient3 {
+    border: solid #000000;
+    height: 5em;
+    margin-bottom: 2em;
+    background: radial-gradient(#006699, #00CC00, #FF0000);
+}
+
+/* Repeating radial gradient */
+#gradient4 {
+    border: solid #000000;
+    height: 5em;
+    margin-bottom: 2em;
+    background: repeating-radial-gradient(#006699, #00CC00 10%, #FF0000 15%);
+}
+
+/* Linear gradient from top left */
+#gradient5 {
+    border: solid #000000;
+    height: 5em;
+    margin-bottom: 2em;
+    background: linear-gradient(to top left, #FFFF00, #FF6600, #006699, #3333FF);
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 2em;
+}
