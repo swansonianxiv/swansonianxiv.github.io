@@ -1,0 +1,63 @@
+/* Payton Swanson - 04/01/2025 */
+
+html {
+    background: url('../imgs/jewelry.jpg') top no-repeat;
+    background-size: cover;
+}
+
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-style: italic;
+
+}
+
+#outerwrapper {
+    background: rgba(243,205,170, 0.4);
+    width: 70%;
+    margin: 0 auto;
+	border-radius: 15%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'roboto-regular', Arial, sans-serif;
+	font-size: 2em;
+	font-style: italic;
+}
+
+main {
+    background: linear-gradient(#FFFFFF, #F0F9E6);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 2em;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.addrightmargin {
+    margin-right: 10%;
+    float: left;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+nav {
+    clear: both;
+}
