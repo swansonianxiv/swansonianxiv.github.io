@@ -82,10 +82,9 @@ caption {
 
 
 
-/* Center the entire form by giving it a fixed width and auto side margins */
 form {
 width: 800px;       
-margin: 0 auto;      /* auto side margins = centered form */
+margin: 0 auto; 
 margin-top: 20px;
 border: 1px solid #000;
 padding: 10px;
