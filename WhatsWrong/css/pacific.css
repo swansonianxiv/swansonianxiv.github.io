@@ -5,7 +5,7 @@ footer {
   text-align: center;
   font-family: Georgia, "Times New Roman", serif;
   background: linear-gradient(
-    to right,
+    to bottom,
     rgba(144, 199, 227, 1),
     rgba(255, 255, 255, 1)
   );
