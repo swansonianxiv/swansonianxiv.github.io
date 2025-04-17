@@ -1,0 +1,112 @@
+/* Mobile Specific Overrides */
+footer {
+  font-size: 75%;
+  font-weight: bold;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  background: linear-gradient(
+    to right,
+    rgba(144, 199, 227, 1),
+    rgba(255, 255, 255, 1)
+  );
+}
+
+body {
+  background-color: #ffffff;
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #000033;
+  color: #ffffff;
+  background-image: url(../imgs/sunset.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  line-height: 400%;
+  text-indent: 1em;
+}
+
+/* Mobile: Vertical navigation */
+nav {
+  background-color: #90c7e3;
+  font-weight: bold;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Mobile: Stack navigation links vertically */
+nav ul li {
+  display: block;
+}
+
+/* All unordered lists use a marker image */
+ul {
+  list-style-image: url(../imgs/marker.gif);
+}
+
+h1 {
+  margin-bottom: 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+span.resort {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Mobile: Hide h2 headlines */
+h2 {
+  display: none;
+  color: #3399cc;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 {
+  color: #000033;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+  color: #000033;
+}
+
+#resort {
+  color: #5c7fa3;
+  font-weight: bold;
+}
+
+/* Styling for HTML5 address element */
+address {
+  font-size: 90%;
+  line-height: 1.5;
+}
+
+/* Mobile: Hide all images */
+img {
+  display: none;
+}
+
+/* Tablet Overrides */
+@media screen and (min-width: 641px) {
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto; /* ensures proper scaling */
+  }
+
+  h2 {
+    display: block;
+  }
+
+  /* Tablet: Display navigation links inline */
+  nav ul li {
+    display: inline;
+  }
+}
