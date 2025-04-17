@@ -57,10 +57,13 @@ h1 {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-span.resort {
-  font-family: Georgia, "Times New Roman", serif;
+.highlight {
   color: #5c7fa3;
   font-weight: bold;
+}
+
+span.resort {
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 /* Mobile: Hide h2 headlines */
