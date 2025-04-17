@@ -47,7 +47,6 @@ nav ul li {
   display: block;
 }
 
-/* All unordered lists use a marker image */
 ul {
   list-style-image: url(../imgs/marker.gif);
 }
@@ -79,7 +78,7 @@ dt {
 }
 
 #resort {
-  color: #5c7fa3;
+  color: #296aaa;
   font-weight: bold;
 }
 
