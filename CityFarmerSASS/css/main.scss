@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url("../fonts/Quicksand-Bold.otf") format("opentype");
+}
+
+$primary-bg-color: #b8d1eb;
+$secondary-bg-color: #c5a98b;
+$dark-bg-color: #7a6b48;
+$accent-color: #8b0000;
+$main-font: "Times New Roman", serif;
+$heading-font: "Righteous", cursive;
+$subheading-font: "Quicksand-Bold", Arial, sans-serif;
+
+.floatleft {
+  float: left;
+  margin-right: 3%;
+}
+
+.floatright {
+  float: right;
+  margin-left: 3%;
+}
+
+body {
+  background-color: $primary-bg-color;
+  font-family: $main-font;
+}
+
+#outerwrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+main {
+  background-color: $secondary-bg-color;
+  padding: 10px;
+
+  > ul {
+    list-style-image: url(../images/tomatoeBullet.png);
+  }
+}
+
+h1 {
+  font-family: $heading-font;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: $subheading-font;
+  font-weight: normal;
+  font-style: italic;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: $secondary-bg-color;
+
+    li {
+      a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+
+        &.active {
+          background-color: $dark-bg-color;
+          color: #000;
+        }
+
+        &:hover:not(.active) {
+          background-color: $dark-bg-color;
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+main,
+footer {
+  clear: both;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  background-color: $dark-bg-color;
+  padding: 10px 0;
+}
