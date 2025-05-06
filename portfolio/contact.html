@@ -74,10 +74,11 @@
               type="tel"
               id="phone"
               name="phone"
-              placeholder="000-000-0000"
-              pattern="\d{3}-\d{3}-\d{4}"
+              placeholder="+1-000-000-0000"
+              pattern="\\+1-\\d{3}-\\d{3}-\\d{4}"
               required
             />
+            <small>Format: +1-123-456-7890</small>
           </div>
         </fieldset>
 
@@ -139,11 +140,21 @@
   </body>
 
   <footer>
+    <p></p>
     <p>
       <a
         href="https://github.com/swansonianxiv"
         class="social-icon github"
         target="_blank"
+        title="Github"
+        aria-label="Github Profile"
+      ></a>
+      <a
+        href="https://www.linkedin.com/"
+        class="social-icon linkedin"
+        target="_blank"
+        title="LinkedIn"
+        aria-label="LinkedIn Profile"
       ></a>
     </p>
   </footer>
