@@ -49,6 +49,7 @@ li.nav-item {
 }
 
 li.nav-item:last-child {
+  float: right;
   border-right: none;
 }
 
