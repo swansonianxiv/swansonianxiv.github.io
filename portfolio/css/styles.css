@@ -386,22 +386,13 @@ small {
 }
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
-  ul.nav-menu {
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    padding: 10px 0;
-  }
 
+@media screen and (max-width: 768px) {
   li.nav-item {
     float: none;
-    width: 100%;
+    display: block;
     text-align: center;
-  }
-
-  li.nav-item:last-child {
-    margin-left: 0;
+    border-right: none;
   }
 
   h1 {
@@ -414,7 +405,9 @@ small {
 
   label {
     width: 100%;
+
     display: block;
+
     margin-bottom: 5px;
   }
 
@@ -423,12 +416,15 @@ small {
   input[type="tel"],
   select {
     width: 100%;
+
     margin-bottom: 10px;
   }
 
   .btn {
     width: 100%;
+
     padding: 12px;
+
     margin-top: 15px;
   }
 }
